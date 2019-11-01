@@ -28,12 +28,12 @@ public class Scraper {
 					 * We can store all variables that we have accessed from the scraped website
 					 */
 					
-					final String ticker = row.select("td:nth-of-type(3)").text();
-					System.out.println(ticker);
-					//final String last = row.select("td.bottomborder.aright:nth-of-type(3)").text();
-					//System.out.println(last);
-					//final String change = row.select("td.positive.bottomborder.aright:nth-of-type(4)").text();
-					//System.out.println(change);
+					final String CourseCode = row.select("td:nth-of-type(1)").text();
+					System.out.println(CourseCode);
+					final String CourseName = row.select("td:nth-of-type(2)").text();
+					System.out.println(CourseName);
+					final String ALevels = row.select("td:nth-of-type(3)").text();
+					System.out.println(ALevels);
 				}
 			}			
 		}catch(Exception ex){
