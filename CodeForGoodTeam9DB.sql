@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `codeforgoodteam9`.`universities` (
   `name` VARCHAR(45) NOT NULL,
   `country` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`university_id`),
-  INDEX `country_idx` (`country` ASC) VISIBLE,
+  INDEX `country_idx` (`country` ASC) VISIBLE)
   CONSTRAINT `country`
     FOREIGN KEY (`country`)
     REFERENCES `codeforgoodteam9`.`users` (`country_of_residence`)
