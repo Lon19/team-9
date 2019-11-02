@@ -25,6 +25,10 @@ body {
     font-size: 16px;
   }
   
+  .topnav a:hover{
+	background-color: #E5E0DF;
+  }
+  
   .topnav .icon {
     display: none;
   }
