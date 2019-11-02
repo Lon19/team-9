@@ -70,9 +70,10 @@ body {
   }
 
   .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
+    margin-bottom: -10px;
     height: 100px;
     width: 100%;
     background-color: #f2f2f2;
@@ -97,14 +98,27 @@ body {
     width:20%;
     min-height:800px;
     float:left;
-    background-color:red;
+    background-color:white;
 }
 #two {
-    margin-top: 100px;
+    margin-top: 15px;
+    margin-left:  5px;
     width:54%;
-    min-height:800px;
+    min-height:900px;
     float:left;
     background-color: green;
+}
+#twoone {
+  width:100%;
+  padding-left: 10px;
+  min-height:40px;
+  float:left;
+  background-color:#c9c9c9;
+}
+
+#twoone h2{
+  color:  white;
+  font-size:25px;
 }
 #three {
     margin-right: 13px;
@@ -112,7 +126,7 @@ body {
     width:20%;
     min-height:800px;
     float:left;
-    background-color:blue;
+    background-color: white;
 }
   
   @media screen and (max-width: 600px) {
