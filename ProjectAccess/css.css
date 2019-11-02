@@ -2,6 +2,13 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .logo{
+    padding-left: 35px;
+    margin-top: -10px;
+    width: 240px;
+    height: auto;
+  }
   
   .topnav {
     overflow: hidden;
