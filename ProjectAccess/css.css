@@ -5,7 +5,6 @@ body {
 
   .logo{
     padding-left: 35px;
-    margin-top: -10px;
     width: 240px;
     height: auto;
   }
@@ -20,7 +19,7 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 30px 25px;
+    padding: 40px;
     padding-right: 50px;
     text-decoration: none;
     font-size: 16px;
@@ -32,7 +31,12 @@ body {
 
   .parallax {
     /* The image used */
-    background-image: url("images/london.png");
+    background-image: url("images/bg.jpg");
+
+    color:  White;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
   
     /* Set a specific height */
     min-height: 500px; 
@@ -44,6 +48,12 @@ body {
     background-size: cover;
   }
 
+  .under{
+    padding:0 10px 0 10px ;
+    text-align: center;
+    color:#3b8cd9;
+    font-size: 27px;
+  }
   
   @media screen and (max-width: 600px) {
     .topnav a {display: none;}
