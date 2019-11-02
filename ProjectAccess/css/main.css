@@ -166,7 +166,6 @@ iframe {
 
 .container-contact100 {
   width: 100%;  
-  min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -176,7 +175,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #e6e6e6;
+  background: #white;
   
 }
 
