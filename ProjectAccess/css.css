@@ -43,7 +43,7 @@ body {
     font-size: 50px;
   
     /* Set a specific height */
-    min-height: 400px; 
+    height: 400px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -70,10 +70,9 @@ body {
   }
 
   .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
-    margin-bottom: -10px;
     height: 100px;
     width: 100%;
     background-color: #f2f2f2;
@@ -95,7 +94,7 @@ body {
   #one {
     margin-left: 15px;
     margin-top: 15px;
-    width:20%;
+    width:15%;
     min-height:800px;
     float:left;
     background-color:white;
@@ -103,10 +102,10 @@ body {
 #two {
     margin-top: 15px;
     margin-left:  5px;
-    width:54%;
-    min-height:900px;
+    width:70%;
+    min-height:800px;
     float:left;
-    background-color: green;
+    
 }
 #twoone {
   width:100%;
@@ -121,9 +120,8 @@ body {
   font-size:25px;
 }
 #three {
-    margin-right: 13px;
     margin-top: 15px;
-    width:20%;
+    width:15%;
     min-height:800px;
     float:left;
     background-color: white;
