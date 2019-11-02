@@ -20,8 +20,7 @@
   </a>
 </div>
 
-<div class="data">
-
+<div class="parallax" >
 <?php
     include 'connect.php';
     $conn = OpenCon();
@@ -32,25 +31,19 @@
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-      echo "<table><tr>
-      <th>Course ID</th>
-      <th>Name</th>
-      <th>Entry Requirements</th>
-      <th>University ID</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-          echo "<tr><td>" .$row["course_id"]. "</td><td>" . $row["name"]. "</td><td>" . $row["entry_requirements"]. "</td><td>" .$row["university_id"]. "</td></tr>";
-        }
-        echo "</table>"; 
+        echo "course_id: " . $row["course_id"]. " - Name: " . $row["name"]. " " . $row["entry_requirements"]. " " .$row["university_id"]. "<br>";
     }
-    else {
+    } else {
     echo "0 results";
-  
-
 }
 $conn->close();
     
 ?>
+
+     
+
 </div>
 
 <div class="under">
