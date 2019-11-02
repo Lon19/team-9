@@ -75,6 +75,12 @@ body {
     color: #fda929;
     text-align: center;
  }
+ 
+ .translate_box{
+	  position: fixed;
+	  right: 10px;
+	  bottom: 10px;
+  }
   
   @media screen and (max-width: 600px) {
     .topnav a {display: none;}
