@@ -31,8 +31,8 @@ CREATE TABLE IF NOT EXISTS `codeforgoodteam9`.`users` (
   PRIMARY KEY (`user_id`),
   INDEX `country_of_residence_idx` (`country_of_residence` ASC) VISIBLE)
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci
 
 
 -- -----------------------------------------------------
